@@ -106,7 +106,7 @@ header .header_text p {
     letter-spacing: 2.24px;
     text-align: left;
     color: #60656f;
-    margin-top:20px;
+    margin-top: 20px;
 }
 button {
     width: 215px;
@@ -217,7 +217,7 @@ footer .footer_slider p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media only screen and (max-width:660px) {
+@media only screen and (max-width:715px) {
     .containerNavBar {
         display:grid;
         grid-template-columns: 80% 20%;
