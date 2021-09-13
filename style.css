@@ -65,6 +65,10 @@ nav .nav_links ul li a {
     text-decoration: none;
     margin-right:30px;
 }
+.nav_links ul li a:hover {
+    color:#279af1;
+    transition:0.3s;
+}
 header {
     width: 90%;
     margin:auto;
@@ -81,6 +85,7 @@ header .header_Img {
 header .header_Img img{
     width: 100%;
     height: 450px;
+    object-fit: cover;
     border-radius:20px;
 }
 header .header_text {
@@ -113,11 +118,16 @@ header .header_text p {
 button {
     width: 215px;
     height: 48px;
+    font-size: 24px;
     border-radius: 25px;
     border: solid 3px #279af1;
     background-color: #fff;
     font-family: Montserrat;
     margin-top:20px;
+}
+button:hover {
+    background-color: #279af1;
+    transition:0.2s;
 }
 .news {
     background-color: #f7f7ff;
@@ -138,12 +148,14 @@ button {
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 600;
+    font-size: 40px;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: 6.4px;
     text-align: left;
     color: #60656f;
+    padding:0 10px;
 }
 .news .newsContainer {
     width:90%;
@@ -171,6 +183,7 @@ button {
     font-family: Montserrat;
     font-size: 45px;
     font-weight: 600;
+    font-size: 28px;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -199,6 +212,7 @@ button {
 .news .newsContainer .news_Img img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius:25px;
 }
 footer {
@@ -210,6 +224,7 @@ footer {
 }
 footer img {
     height:350px;
+    object-fit: cover;
     width:100%;
     transition: opacity 0.5s;
 }
@@ -233,16 +248,15 @@ footer .footer_slider p {
     }
     nav .nav_links {
         display:none;
-
     }
     nav .nav_links ul{
         margin-right:50px;
-        
     }
     nav .nav_links ul li{
         display:flex;
         justify-content: center;
         margin-left:120px;
+        margin-bottom:15px;
     }
     .news .newsTitle {
         align-items: center;
@@ -269,33 +283,16 @@ footer .footer_slider p {
     }
     header .header_text{
         margin-top:20px;
-        text-align: center;
-    }
-    header .header_text h3 {
-        text-align: center;
-    }
-    header .header_text p {
-        text-align: center;
     }
     .news .newsTitle {
         justify-content: center;
-    }
-    .news .newsTitle h2{
-        text-align: center;
     }
     .news .newsContainer {
         display:grid;
         grid-template-columns: 100%;
         grid-gap:0;
     }
-    .news .newsContainer .news_article h4{
-        text-align: center;
-    }
-    .news .newsContainer .news_article p{ 
-        text-align: center;
-    }
     .news .newsContainer .news_article{ 
-        text-align: center;
         margin-top:20px;
     }
     .news .newsContainer .news_article:nth-child(1) {
