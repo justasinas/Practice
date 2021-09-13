@@ -12,6 +12,8 @@ nav {
     width:100%;
     box-shadow: 0 3px 16px 0 rgba(39, 154, 241, 0.5);
     background-color: #fff;
+    line-height: 89px;
+    vertical-align: middle;
 }
 .containerNavBar {
     width:90%;
@@ -25,12 +27,9 @@ nav #logo {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
     letter-spacing: normal;
     text-align: left;
     color: #279af1;
-    display: flex;
-    justify-content: start;
 }
 nav .hamburger {
     display: flex;
@@ -38,6 +37,9 @@ nav .hamburger {
     font-size:30px;
     width:30px;
     visibility: hidden;
+}
+.hamburger i {
+    line-height: 89px;
 }
 nav .nav_links {
     display: flex;
@@ -228,7 +230,6 @@ footer .footer_slider p {
         font-size:30px;
         width:30px;
         visibility: visible;
-        margin-top:10px;
     }
     nav .nav_links {
         display:none;
