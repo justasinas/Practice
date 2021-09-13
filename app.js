@@ -1,4 +1,3 @@
-  
 const images = ['images/1.jfif','images/2.jfif','images/3.jpg'];
 const time = 3000;
 const imgSlide = document.getElementById("slideImg");
